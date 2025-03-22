@@ -1,0 +1,129 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Projet CSS 1.css">
+    <title>Abdo Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"> <a href="#home">Home</a></li>
+                <li class="nav-item"> <a href="#about">About</a></li>
+                <li class="nav-item"> <a href="#work">Work</a></li>
+                <li class="nav-item"> <a href="#resume">Resume</a></li>
+                <li class="nav-item"> <a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Section Home -->
+        <section id="home" class="section">
+            <h1 class="title">Mon Portfolio Abdelaali </h1>
+            <p class="subtitle">Développeur Web passionné par la création de sites interactifs.</p>
+        </section>
+
+        <!-- Section About -->
+        <section id="about" class="section">
+            <h2 class="title">A propos de moi</h2>
+            <p class="text">Je suis un développeur web spécialisé en HTML, CSS et JavaScript. En plus un développeur peut intervenir
+                dans la phase de conception, participer à l'élaboration d'algorithmes, prendre du recul sur les attentes
+                de l'utilisateur final, rédiger de la documentation ou encore conduire des tests. Son rôle peut aussi
+                être de traduire les spécifications fonctionnelles (les attentes concrètes du client, de la direction,
+                du chef de projet) en spécifications techniques, en code, pour leur donner vie.
+
+                Un poste de développeur web est plus ou moins large selon l'organisation de l'équipe, les contraintes de
+                production et les challenges techniques.
+
+                Le développeur web peut être spécialisé dans un domaine et être plus ou moins polyvalent. Selon
+                l'étendue et les sujets sur lesquels il travaille, on parle notamment de :
+
+                Développeur Backend
+                Développeur Frontend
+                Développeur Fullstack
+            </p>
+            <video class="video" controls width="600" src="/Norman Borlaug, Nobel Peace Prize 1970 Three barriers you have to go across.mp4" type="video/mp4">Votre navigateur ne supporte pas la
+                vidéo.</video>
+        </section>
+
+        <!-- Section Work -->
+
+        <section id="work"  class="section">
+            <h2 class="title">Mes Projets</h2>
+            <ul class="project-list">
+                <li><a href="mon projet1.html">Projet 1</a></li>
+                <li><a href="mon projet2.css">Projet 2</a></li>
+                <li><a href="mon projet3.js">Projet 3</a></li>
+                <li><a href="mon projet4.html">Projet 4</a></li>
+            </ul>
+
+            <h3>Mes compétences</h3>
+            <table>
+                <tr>
+                    <th>Compétence</th>
+                    <th>Niveau</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Avance</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermédiaire</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Debutant</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>Intermédiaire</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Section Resume -->
+        <section id="resume"  class="section">
+            <h2 class="title">Mon CV</h2>
+            <p><a href="/cv-25-brown.pdf" class="button">télécharger mon curriculum vitae</a></p>
+            <audio class="audio" controls src="/Norman Borlaug Documentary.mp3">Votre navigateur ne supporte pas l'audio</audio>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="section">
+            <form class="contact-form">
+                <fieldset>
+                    <legend>Me contacter</legend>
+                    <label for="nom">Nom :</label> 
+                    <input type="text" name="nom" id="nom"  placeholder="Taper votre nom" required>
+
+                    <label for="email">Email :</label> 
+                    <input type="email" name="email" id="email" placeholder="Taper votre eamil" required>
+
+                    <label for="message">Message :</label> <textarea rows="5" cols="50" name="message" id="message" placeholder="Taper votre message" required></textarea>
+
+                    <button type="submit" class="button">Envoyer</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 - Mon Portfolio </p>
+    </footer>
+
+</body>
+
+</html>
